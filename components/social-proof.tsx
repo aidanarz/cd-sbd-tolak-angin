@@ -2,7 +2,6 @@
 import { motion } from "framer-motion"
 import { Star, Quote } from "lucide-react"
 
-// ⚠️ TEMPLATE — Replace with real testimonials before publishing
 const testimonials = [
   {
     name: "Siti",
@@ -44,7 +43,7 @@ export default function SocialProofSection() {
       <div className="max-w-6xl mx-auto">
         {/* Trust bar */}
         <motion.div
-          className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-24 p-8 rounded-2xl border border-white/5 bg-white/[0.02]"
+          className="mx-auto grid max-w-4xl grid-cols-1 gap-6 mb-24 p-8 rounded-2xl border border-white/5 bg-white/[0.02] sm:grid-cols-2 md:grid-cols-3"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
